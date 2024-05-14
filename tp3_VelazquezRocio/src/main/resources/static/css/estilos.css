@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+body{
+	font-family:sans-serif;
+	background-color: #e6e6e6;
+}
+
+#encabezado{
+	background-image: url("https://imgs.search.brave.com/_IxI3DpPmGGMMKyFCKXSEjKOMcaOSQJ9In_DyQ6ECO0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/NDI4MzEzNzEtMjli/MGY3NGY5NzEzP3E9/ODAmdz0xMDAwJmF1/dG89Zm9ybWF0JmZp/dD1jcm9wJml4bGli/PXJiLTQuMC4zJml4/aWQ9TTN3eE1qQTNm/REI4TUh4elpXRnlZ/Mmg4TW54OGFIUnRi/SHhsYm53d2ZId3dm/SHg4TUE9PQ.jpeg");
+	padding: 25px;
+}
+
+#encabezado h1{
+	color:white;
+	font-weight: bold;
+	text-align: center;
+}
+
+.nav{
+	margin-top:5px;
+	border-radius: 10px;
+	margin:5px;
+	padding:15px;
+	border: 5px blue;
+	background-color:#ebebfa;
+}
+.enlaceNav{
+	margin:5px;
+	text-decoration: none;
+	color:#000033
+}
+.nav div{
+	border:1px red;
+	display:flex;
+	justify-content: space-around;
+	
+}
+
+.main{
+	
+	background-color:#f2f2f2;
+	margin:5px;
+	padding:15px;
+	border-radius: 15px;
+}
+
+.seccion{
+	background-color:#ebebfa;
+	margin:5px;
+	margin-bottom:15px;
+	padding:15px;
+	border-radius: 15px;
+	box-shadow: 1px 2px 3px #333;
+}
+
+.subTitle{
+	
+	text-align:center;
+	background-color: #b3ccff;
+	font-style: italic;
+	border-radius: 15px;
+	width: 75vw;
+	height: 30px;
+}
+.parrafo{
+	 font-family:  sans-serif;
+    line-height: 1.3; 
+    color: #333;
+    padding: 10px; 
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    margin: 20px 0; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    text-align: justify;
+}
+.listaDesord{
+    margin: 20px;
+    font-size: 17px;
+    color: #333; 
+}
+.enlace{
+	margin:5px;
+	text-decoration: none;
+	color:#000033
+}
+.table{
+	width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color:#cce6ff;
+}
+.table th,td{
+	 padding: 12px 15px;
+    border: 2px solid #b3ccff;
+}
+.profes{
+	display:flex;
+	justify-content: space-around;
+	
+}
+
+.adicional{
+	background-color:#f2f2f2;
+	padding:15px;
+	
+}
+.listaAd{
+	text-align:right;
+	 list-style-type: none; 
+    padding-left: 0; 
+    margin: 20px 0; 
+    font-size: 16px; 
+}
+.enlaceAd{
+	text-decoration: none;
+	color:black;
+}
+
+
+.pie{
+	text-align:center;
+	display:flex;
+	flex-wrap: wrap;
+	background-color: #ebebfa;
+	border-radius: 15px;
+	padding:10px;
+}
+.boxFooter{
+	display:flex;
+	justify-content: space-around;
+	align-items:center;
+	width:90vw;
+}
