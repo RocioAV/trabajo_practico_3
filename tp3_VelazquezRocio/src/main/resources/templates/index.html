@@ -3,41 +3,48 @@
 <head >
 	<meta charset="UTF-8">
 	<title>Programacion Visual</title>
+	<link rel="stylesheet" href="../static/css/estilos.css" >
 </head>
 	
 <body>
-	<header>
+	<header id="encabezado">
 		<h1> ¡Bienvenido a Programacion Visual! </h1>
 	</header>
 	
-	<nav>
+	<nav class="nav">
+		<div>
+			<img alt="facultad" src="../static/images/facultad.png">
+			<img alt="facultad" src="../static/images/aulavirtual.png">
+		</div>
+		
+		<hr>
+		
 		<ul>
-			<li> <a href="https://www.fi.unju.edu.ar/">Facultad Ingenieria UNJu </a> </li>
-			<li> <a href="https://virtual.unju.edu.ar/course/view.php?id=2540">Aula Virtual</a> </li>
-			<li> <a href="#sobreNosotros">Sobre nosotros</a></li>
-			<li> <a href="#tecnologias"> Tecnologias a Emplear</a></li>
-			<li> <a href="#profesores"> Profesores a cargo</a></li>
+			<li> <a href="https://www.fi.unju.edu.ar/" class="enlaceNav">Facultad Ingenieria UNJu </a> </li>
+			<li> <a href="https://virtual.unju.edu.ar/course/view.php?id=2540" class="enlaceNav">Aula Virtual</a> </li>
+			<li> <a href="#sobreNosotros" class="enlaceNav">Sobre nosotros</a></li>
+			<li> <a href="#tecnologias" class="enlaceNav"> Tecnologias a Emplear</a></li>
+			<li> <a href="#profesores" class="enlaceNav"> Profesores a cargo</a></li>
 		</ul>
-		<img alt="facultad" src="../static/images/facultad.png">
-		<span><img alt="facultad" src="../static/images/aulavirtual.png"></span>
+		
 	</nav>
 	
-	<main>
+	<main class="main">
 	
-		<section id="sobreNosotros">
-			<h2>  Carrera Analista Programador Universitario</h2>
+		<section id="sobreNosotros" class="seccion">
+			<h2 class="subTitle">  Carrera Analista Programador Universitario</h2>
 			<img alt="proVisual" src="../static/images/progVisual.png">
-			<p> Materia corresponde al 2do año en el plan de estudio de la carrera APU.
+			<p class="parrafo"> Materia corresponde al 2do año en el plan de estudio de la carrera APU.
 				El objetivo de esta es lograr abarcar todos los conocimientos impuestas en el programa de la materia,
 				con la realizacion de un proyecto final, que pone en practica todos ellos.
 			</p>
 				
-			<ul>
-				<li> <a href="https://virtual.unju.edu.ar/pluginfile.php/803187/mod_resource/content/1/Programacion%20Visual%202024.pdf">Programa de materia</a> </li>
+			<ul class="listaDesord">
+				<li> <a class="enlace" href="https://virtual.unju.edu.ar/pluginfile.php/803187/mod_resource/content/1/Programacion%20Visual%202024.pdf">Programa de materia</a> </li>
 			</ul>
 			
-			<h3>Horarios de la materia</h3>
-			<table >
+			<h3 class="subTitle">Horarios de la materia</h3>
+			<table class="table" >
 				  <tr>
 				    <th>Curso</th>
 				    <th>Día y Hora</th>
@@ -48,59 +55,59 @@
 				    <td>Teoría única</td>
 				    <td>Miércoles: 14 a 17 hs</td>
 				    <td>Virtual</td>
-				    <td>Aula Virtual de la Sala 4 (LUTI) - <a href="https://bit.ly/ZOOMFI-14">https://bit.ly/ZOOMFI-14</a></td>
+				    <td>Aula Virtual de la Sala 4 (LUTI) - <a class="enlace" href="https://bit.ly/ZOOMFI-14">https://bit.ly/ZOOMFI-14</a></td>
 				  </tr>
 				  <tr>
 				    <td>Comisión 1 Práctica</td>
 				    <td>Lunes: 18 a 21 hs</td>
 				    <td>Virtual</td>
-				    <td>Aula Virtual del AULA 11 - <a href="https://bit.ly/ZOOMFI-14">https://bit.ly/ZOOMFI-14</a></td>
+				    <td>Aula Virtual del AULA 11 - <a class="enlace" href="https://bit.ly/ZOOMFI-14">https://bit.ly/ZOOMFI-14</a></td>
 				  </tr>
 				  <tr>
 				    <td>Comisión 2 Práctica</td>
 				    <td>Jueves: 14 a 17 hs</td>
 				    <td>Virtual</td>
-				    <td><a href="https://bit.ly/ZOOMFI-14">https://bit.ly/ZOOMFI-14</a></td>
+				    <td><a class="enlace" href="https://bit.ly/ZOOMFI-14">https://bit.ly/ZOOMFI-14</a></td>
 				  </tr>
 				  <tr>
 				    <td>Comisión 3 Práctica</td>
 				    <td>Viernes: 18 a 21 hs</td>
 				    <td>Virtual</td>
-				    <td><a href="https://bit.ly/ZOOMFI-14">https://bit.ly/ZOOMFI-14</a></td>
+				    <td><a  class="enlace" href="https://bit.ly/ZOOMFI-14">https://bit.ly/ZOOMFI-14</a></td>
 				  </tr>
 			</table>
 			
 			
 		</section>
-		<section id="tecnologias">
-			<h2>Tecnologias a emplear</h2>
-			<p>Herramientas para desarrollo; Java JDK 19 - Spring Tool Suite </p>
-			<ul>
-				<li> <a href="https://youtu.be/TRsCMJrKglw">Instalacion Java 17</a> </li>
-				<li> <a href="https://youtu.be/89Mr-dYcHxA">Instalacion Spring Tools Suite</a> </li>
+		<section id="tecnologias" class="seccion" >
+			<h2 class="subTitle">Tecnologias a emplear</h2>
+			<p class="parrafo">Herramientas para desarrollo; Java JDK 19 - Spring Tool Suite </p>
+			<ul class="listaDesord">
+				<li> <a class="enlace" href="https://youtu.be/TRsCMJrKglw">Instalacion Java 17</a> </li>
+				<li> <a class="enlace" href="https://youtu.be/89Mr-dYcHxA">Instalacion Spring Tools Suite</a> </li>
 			</ul>
-			<p>Uso de GitHub</p>
-			<ul>
-				<li> <a href="https://drive.google.com/file/d/1T7ZrLR9iwVDW1FTkkYQV_Mn4izOUdX87/view">Uso del GitHub</a> </li>
+			<p class="parrafo">Uso de GitHub</p>
+			<ul class="listaDesord">
+				<li> <a class="enlace" href="https://drive.google.com/file/d/1T7ZrLR9iwVDW1FTkkYQV_Mn4izOUdX87/view">Uso del GitHub</a> </li>
 			</ul>
 		</section>
 		
-		<section id="profesores">
-			<h2 >Profesores a cargo</h2>
-			<ul>
+		<section id="profesores" class="seccion" >
+			<h2 class="subTitle">Profesores a cargo</h2>
+			<ul class="listaDesord">
 				<li> Mg. Ing. Ariel Alejandro Vega </li>
 				<li> Ing. Carolina Apaza  </li> 
 				<li> Juan Carlos Rodriguez </li>
 				<li> Mg. Ing. Gustavo Sosa </li>
 			</ul>
-			<span>
+			<div class="profes">
 				<img alt="Ariel Vega" src="../static/images/profVega.png">
 				<img alt="Carolina Apaza" src="../static/images/profApaza.png">
 				<img alt="Juan Carlos Rodriguez" src="../static/images/profRodriguez.png">
 				<img alt="Gustavo Sosa" src="../static/images/profSosa.png">
-			</span>
-			<h3>Horarios de consulta</h3>
-			<table >
+			</div>
+			<h3 class="subTitle"> Horarios de consulta</h3>
+			<table class="table">
 				  <tr>
 				    <th>Nombre</th>
 				    <th>Día y Hora</th>
@@ -109,55 +116,67 @@
 				  <tr>
 				    <td>Ariel Vega</td>
 				    <td>Viernes: 8:30 a 9:30 hs</td>
-				    <td><a href="https://meet.google.com/ujm-tauq-tfg">https://meet.google.com/ujm-tauq-tfg</a></td>
+				    <td><a class="enlace" href="https://meet.google.com/ujm-tauq-tfg">https://meet.google.com/ujm-tauq-tfg</a></td>
 				  </tr>
 				  <tr>
 				    <td>Carolina Apaza</td>
 				    <td>Jueves: 17:00 a 18:00 hs</td>
-				    <td><a href="https://meet.google.com/wwk-whaf-yxi">https://meet.google.com/wwk-whaf-yxi</a></td>
+				    <td><a  class="enlace" href="https://meet.google.com/wwk-whaf-yxi">https://meet.google.com/wwk-whaf-yxi</a></td>
 				  </tr>
 				  <tr>
 				    <td>Juan Carlos Rodriguez</td>
 				    <td>Miércoles: 18:00 a 19:00 hs</td>
-				    <td><a href="https://meet.google.com/oxt-kfay-uko">https://meet.google.com/oxt-kfay-uko</a></td>
+				    <td><a  class="enlace" href="https://meet.google.com/oxt-kfay-uko">https://meet.google.com/oxt-kfay-uko</a></td>
 				  </tr>
 				  <tr>
 				    <td>Gustavo Sosa</td>
 				    <td>Jueves: 20:00 a 21:00 hs</td>
-				    <td><a href="https://meet.google.com/doe-pptp-zyg">https://meet.google.com/doe-pptp-zyg</a></td>
+				    <td><a class="enlace" href="https://meet.google.com/doe-pptp-zyg">https://meet.google.com/doe-pptp-zyg</a></td>
 				  </tr>
 			</table>
 			
 		</section>
 	</main>
+	<hr>
 	
-	<aside> 
-		<h2>Bibliografia</h2>
-		<ul>
-				<li> <a href="https://docs.spring.io/spring-boot/docs/3.2.4/reference/pdf/spring-boot-reference.pdf">Spring Boot Reference Documentation</a> </li>
+	<aside class="adicional"> 
+		<h2 class="">Bibliografia</h2>
+		<ul class="listaAd" >
+				<li> <a class="enlaceAd" href="https://docs.spring.io/spring-boot/docs/3.2.4/reference/pdf/spring-boot-reference.pdf">Spring Boot Reference Documentation</a> </li>
 				<li>Spring Microservices - Rajesh RV  </li>
 				<li>Spring Boot Arquitectura de BackEnd - Rafael Benedettelli </li>
 				<li>Spring Data  - Petri Kainulainen  </li>
 		</ul>
 		
 	</aside>
+	<hr>
 	
-	<footer>
+	<footer class="pie">
+		<div class="boxFooter">
+			<div>
 			<h4 >Redes Sociales</h4>
 			
-			<ul>
-				<li><a href="https://www.facebook.com/fiunju/" >Facebook</a></li>
-				<li><a href="https://www.youtube.com/" >YouTube</a></li>
-				<li><a href="https://www.instagram.com" >Instagram</a></li>
+			<ul >
+				<li><a  class="enlace" href="https://www.facebook.com/fiunju/" >Facebook</a></li>
+				<li><a  class="enlace" href="https://www.youtube.com/" >YouTube</a></li>
+				<li><a class="enlace" href="https://www.instagram.com" >Instagram</a></li>
 			</ul>
-			
+		</div>
+		
+		<div>
 			<h4 >Contactanos</h4>
 			
 			<ul>
 				<li>San Salvador de Jujuy Jujuy - Argentina</li>
 				<li> Ítalo Palanca Nº 10</li>
-				<li><a href="https://www.whatsapp.com/?lang=es_LA" >+54 3884587124</a></li>
+				<li><a class="enlace" href="https://www.whatsapp.com/?lang=es_LA" >+54 3884587124</a></li>
 			</ul>
+		</div>
+			
+			<img alt="facultad" src="../static/images/aulavirtual.png">
+		</div>
+		
+			
 			<p>Copyright © 2014-2022 - Programacion Visual - Facultad de Ingeniería - UNJu</p>
 	</footer>
 	
