@@ -16,24 +16,44 @@ body{
 	text-align: center;
 }
 
-.nav{
-	margin-top:5px;
-	border-radius: 10px;
-	margin:5px;
-	padding:15px;
-	border: 5px blue;
-	background-color:#ebebfa;
+img{
+	border-radius:15px;
 }
-.enlaceNav{
-	margin:5px;
-	text-decoration: none;
-	color:#000033
-}
+
+
 .nav div{
-	border:1px red;
 	display:flex;
 	justify-content: space-around;
+}
+
+.nav {
+	background-color:#ebebfa;
+	overflow: hidden;
+	border-radius: 10px;
+	padding:10px;
+}
+
+.nav ul {
 	
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around; 
+}
+
+.nav li {
+	margin-top:10px;
+	border-radius:10px;
+	background-color:#f2f2f2;
+	float: left; 
+}
+
+.enlaceNav {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
 }
 
 .main{
@@ -59,7 +79,7 @@ body{
 	background-color: #b3ccff;
 	font-style: italic;
 	border-radius: 15px;
-	width: 75vw;
+	width: 100%;
 	height: 30px;
 }
 .parrafo{
@@ -133,3 +153,46 @@ body{
 	align-items:center;
 	width:90vw;
 }
+
+.main-form{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin:20px;
+	padding:20px;
+}
+.form{
+	background-color: rgb(243 244 246);
+	padding:25px;
+	border-radius: 25px;
+	
+	
+}
+
+.row{
+	margin:15px;
+}
+
+.row input,
+.row select,
+.row textarea{
+	width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+}
+.input-radio{
+	display:flex;
+	margin:10px;
+}
+
+.form input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
